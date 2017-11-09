@@ -73,57 +73,58 @@ body {
 /* HOME PAGE */
 
 .menu1 h1{
-
 color: black;
-}
-
-#menu2 {
-  margin: 50px;
-  background-color: #f6b319;
 }
 
 #menu2 h2 {
-  text-align: center;
+text-align: center;
 color: black;
 padding: 5px;
 }
-
-#menu2 p {
-  color:black;
-  padding: 10px;
-
-
+#menu2 p{
+color:black;
+padding: 10px;
 }
 
+#menu2  {
+margin: 30px;
+background-color: #f6b319
+}
 
 /*****Large devices****/
 @media (min-width: 1200px) {
-#menu2 {
-margin:0px;
-
-} 
+#menu2  {
+margin: 0px;
+}
 }
 
 /*****Medium devices****/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-#menu2 {
-margin:0px;
-
+#menu2  {
+margin: 0px;
 }
+
 }
 
 /*****Small devices****/
 
 @media (min-width: 768px) and (max-width: 991px) {
 #menu2 {
-  margin: 50px;
+margin:30px;
 }
 }
+
+
 /*****Extra Small devices****/
 @media (max-width: 767px) {
   .navbar li a { 
     background: red;
     border: 1px solid black;
+}
+
+#menu2 {
+  margin: 30px;
+}
 }
 
